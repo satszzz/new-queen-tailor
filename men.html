@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Men's Collection | New Queen Tailor</title>
+  <link rel="icon" type="image/png" href="images/logo/logo.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer>
+    function toggleMore(id) {
+      const el = document.getElementById(id);
+      const icon = document.getElementById("icon-" + id);
+      el.classList.toggle("hidden");
+      icon.classList.toggle("rotate-180");
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- ✅ Header -->
+  <nav class="flex items-center justify-between px-6 py-4 shadow-md bg-white relative z-50">
+    <div class="flex items-center space-x-3">
+      <img src="images/logo/logo without bg.png" alt="New Queen Tailor Logo" class="h-20 w-auto" />
+      <span class="text-2xl font-extrabold text-[#9D8140] tracking-wide">NEW QUEEN TAILOR</span>
+    </div>
+    <ul class="hidden md:flex space-x-6 font-semibold text-sm text-purple-900">
+      <li><a href="women.html">WOMEN</a></li>
+      <li><a href="men.html" class="text-blue-700 font-bold">MEN</a></li>
+      <li><a href="embroidery.html">EMBROIDERY</a></li>
+      <li><a href="order-and-stitch.html">ORDER & STITCH</a></li>
+      <li><a href="premium.html">PREMIUM</a></li>
+      <li><a href="index.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="flex items-center space-x-4 text-purple-900">
+      <a href="login.php" class="px-5 py-2 rounded-lg bg-purple-600 text-white font-semibold hover:bg-purple-700 transition duration-200 shadow-md">Sign In</a>
+    </div>
+  </nav>
+
+  <!-- ✅ Main Section -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-4 space-y-20">
+
+      <!-- Dress 1 - Shirts -->
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        <div class="w-full md:w-1/2">
+          <img src="dummy.avif" alt="Formal Shirt Designs"
+            class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300" loading="lazy" />
+        </div>
+        <div class="w-full md:w-1/2">
+          <h2 class="text-2xl font-bold text-purple-800 mb-3">Shirts</h2>
+          <p class="mb-3 text-gray-600">Custom-tailored shirts designed for every occasion – from professional formal wear to relaxed casual styles that express your personality.</p>
+          <button onclick="toggleMore('more1', this)" class="flex items-center gap-2 text-sm text-amber-700 font-semibold hover:underline mb-4 focus:outline-none">
+            <span>View Designs</span>
+            <svg id="icon-more1" class="w-4 h-4 transition-transform duration-300 transform" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div id="more1" class="hidden space-y-12 mt-6 transition-all duration-500 ease-in-out">
+
+            <!-- Variation 1 - Formal Shirt -->
+            <div class="flex flex-col md:flex-row items-center gap-6">
+              <div class="w-full md:w-1/2">
+                <img src="dummy.avif" alt="Formal Shirt"
+                  class="w-full h-48 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </div>
+              <div class="w-full md:w-1/2">
+                <h3 class="text-lg font-bold text-purple-700">Formal Shirt</h3>
+                <p class="text-gray-600 text-sm mb-2">Sharp collars, cuffs, and clean cuts for an executive look. Perfect for office and interviews.</p>
+                <a href="https://wa.me/919486639475" target="_blank"
+                  class="inline-block px-4 py-2 bg-purple-700 text-white text-sm rounded-full hover:bg-purple-800 transition">Explore Designs →</a>
+              </div>
+            </div>
+
+            <!-- Variation 2 - Casual Shirt -->
+            <div class="flex flex-col-reverse md:flex-row items-center gap-6">
+              <div class="w-full md:w-1/2">
+                <h3 class="text-lg font-bold text-purple-700">Casual Shirt</h3>
+                <p class="text-gray-600 text-sm mb-2">Laid-back and trendy with playful prints or checks. Ideal for weekends and outings.</p>
+                <a href="https://wa.me/919486639475" target="_blank"
+                  class="inline-block px-4 py-2 bg-purple-700 text-white text-sm rounded-full hover:bg-purple-800 transition">Explore Designs →</a>
+              </div>
+              <div class="w-full md:w-1/2">
+                <img src="dummy.avif" alt="Casual Shirt"
+                  class="w-full h-48 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Dress 2 - Kurta -->
+<div class="flex flex-col-reverse md:flex-row items-center gap-10 mt-20">
+  <div class="w-full md:w-1/2">
+    <h2 class="text-2xl font-bold text-purple-800 mb-3">Kurta</h2>
+    <p class="mb-3 text-gray-600">Traditional and modern kurtas tailored for comfort and elegance. Perfect for everyday wear or festive celebrations.</p>
+    <a href="https://wa.me/919486639475" target="_blank"
+      class="inline-block px-4 py-2 bg-purple-700 text-white text-sm rounded-full hover:bg-purple-800 transition">Explore Designs →</a>
+  </div>
+  <div class="w-full md:w-1/2">
+    <img src="dummy.avif" alt="Kurta Designs"
+      class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition duration-300" loading="lazy" />
+  </div>
+</div>
+<!-- Dress 3 - Sherwani -->
+<div class="flex flex-col md:flex-row items-center gap-10 mt-20">
+  <div class="w-full md:w-1/2">
+    <img src="dummy.avif" alt="Sherwani Designs"
+      class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition duration-300" loading="lazy" />
+  </div>
+  <div class="w-full md:w-1/2">
+    <h2 class="text-2xl font-bold text-purple-800 mb-3">Sherwani</h2>
+    <p class="mb-3 text-gray-600">Royal and regal sherwanis with rich embroidery and fitting for your most important occasions like weddings and engagements.</p>
+    <a href="https://wa.me/919486639475" target="_blank"
+      class="inline-block px-4 py-2 bg-purple-700 text-white text-sm rounded-full hover:bg-purple-800 transition">Explore Designs →</a>
+  </div>
+</div>
+<!-- Dress 4 - Pants -->
+<div class="flex flex-col-reverse md:flex-row items-center gap-10 mt-20">
+  <div class="w-full md:w-1/2">
+    <h2 class="text-2xl font-bold text-purple-800 mb-3">Pant Designs</h2>
+    <p class="mb-3 text-gray-600">Tailored to perfection, our pants offer unmatched fit and comfort — from boardroom-ready formals to easy-going casuals.</p>
+
+    <button onclick="toggleMore('more4', this)" class="flex items-center gap-2 text-sm text-amber-700 font-semibold hover:underline mb-4 focus:outline-none">
+      <span>View Designs</span>
+      <svg id="icon-more4" class="w-4 h-4 transition-transform duration-300 transform" fill="none" stroke="currentColor"
+        stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+
+    <div id="more4" class="hidden space-y-12 mt-6 transition-all duration-500 ease-in-out">
+
+      <!-- Variation 1 - Formal Pant -->
+      <div class="flex flex-col-reverse md:flex-row items-center gap-6">
+        <div class="w-full md:w-1/2">
+          <h3 class="text-lg font-bold text-purple-700">Formal Pant</h3>
+          <p class="text-gray-600 text-sm mb-2">Sharp lines and structured fit for a clean professional look. Ideal for office or formal events.</p>
+          <a href="https://wa.me/919486639475" target="_blank"
+            class="inline-block px-4 py-2 bg-purple-700 text-white text-sm rounded-full hover:bg-purple-800 transition">Explore Designs →</a>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="dummy.avif" alt="Formal Pant"
+            class="w-full h-48 object-cover rounded-lg shadow-md hover:scale-105 transition duration-300" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Variation 2 - Casual Pant -->
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <div class="w-full md:w-1/2">
+          <img src="dummy.avif" alt="Casual Pant"
+            class="w-full h-48 object-cover rounded-lg shadow-md hover:scale-105 transition duration-300" loading="lazy" />
+        </div>
+        <div class="w-full md:w-1/2">
+          <h3 class="text-lg font-bold text-purple-700">Casual Pant</h3>
+          <p class="text-gray-600 text-sm mb-2">Easy-fit chinos and relaxed cuts made for comfort and weekend-ready style.</p>
+          <a href="https://wa.me/919486639475" target="_blank"
+            class="inline-block px-4 py-2 bg-purple-700 text-white text-sm rounded-full hover:bg-purple-800 transition">Explore Designs →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="w-full md:w-1/2">
+    <img src="dummy.avif" alt="Pant Designs"
+      class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition duration-300" loading="lazy" />
+  </div>
+</div>
+
+
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="bg-gray-900 text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm opacity-80">© 2025 New Queen Tailor. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
