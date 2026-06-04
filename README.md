@@ -88,22 +88,6 @@ New Queen Tailor is a modern tailoring service platform designed to help custome
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-Add a screenshot here
-
-### Women's Collection
-Add a screenshot here
-
-### Men's Collection
-Add a screenshot here
-
-### Embroidery Section
-Add a screenshot here
-
----
-
 ## 🎯 Objectives
 
 - Showcase tailoring services online
