@@ -109,7 +109,7 @@ https://newqueentailor.netlify.app/
 
 ## 👨‍💻 Developer
 
-**Satheeswaran S**
+**Satheeswaran B**
 
 Computer Science and Engineering Student  
 Sathyabama Institute of Science and Technology
