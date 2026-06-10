@@ -102,7 +102,8 @@ New Queen Tailor is a modern tailoring service platform designed to help custome
 
 The website is deployed using **Netlify**.
 
-Live Site: https://newqueentailor.netlify.app/
+Live Site: 
+https://newqueentailor.netlify.app/
 
 ---
 
