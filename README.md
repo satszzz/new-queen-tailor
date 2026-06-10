@@ -107,17 +107,6 @@ https://newqueentailor.netlify.app/
 
 ---
 
-## 👨‍💻 Developer
-
-**Satheeswaran B**
-
-Computer Science and Engineering Student  
-Sathyabama Institute of Science and Technology
-
-GitHub: https://github.com/satszzz
-
----
-
 ## 📄 License
 
 This project is created for educational and business purposes.
