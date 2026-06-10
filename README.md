@@ -88,7 +88,7 @@ New Queen Tailor is a modern tailoring service platform designed to help custome
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Showcase tailoring services online
 - Enable customers to explore designs
